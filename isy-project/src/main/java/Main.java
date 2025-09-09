@@ -14,6 +14,7 @@ public class Main {
             System.out.println("i = " + i);
 
             System.out.println("Hello Group 5");
+            System.out.println("Test nr 2");
         }
     }
 }
