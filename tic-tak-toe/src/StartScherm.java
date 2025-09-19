@@ -1,7 +1,15 @@
-public class StartScherm {
-    public static void main(String[] args) {
-        // welkom bij tic tac toe
-        // met kom op te spelen en kiezen welke speler
+import javax.swing.*;
+import java.awt.*;
+import java.awt.event.*;
+
+public class Startscherm extends JFram{
+    private char gekozenSymbool = 'X';
+
+    public Startscherm(){
+        setTitle("Tic Tac Toe - Startscherm")
+        setSize(400,300);
+        setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        setLocationRelativeTo(null);
 
     }
 }
